@@ -1,14 +1,22 @@
-ext-src-path
+*Extension Source Path*
 ============
 
-An extension to point to the source location of Google Chrome extentions
+An extension to point to the source location of Google Chrome extensions.
 
-Description from the Webstore (https://chrome.google.com/webstore/detail/extension-source-locator/cmhbfegjgncgaikpopenldnaidbhdopp):
 Would you like to see how popular extensions have implemented a feature? Tired of looking for the extension ID to construct the path that will lead you to the source?
-
 This is the extension for you!
 
-Features:
-Replaces the functionality of the New Tab
+This is a fork with major change of https://github.com/shaihi/ext-src-path: The original extension was hijacking you newtab page to show you
+the main gui where you can see all your extension, it was very inconvenient.
+
+So now to display the interface you just have to click on the new icon in the Chrome toolbar, also some minor tweak have been made to the CSS.
+
+
+*Features:*
 Lists all installed extensions with their icons next to it
 Allows to copy to the clipboard the extension path
+
+Note: Extension that are loaded unpacked are are marked as "Extension under development"
+
+![](https://i.imgur.com/3c0SzQG.png)
+

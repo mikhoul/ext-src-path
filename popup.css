@@ -68,5 +68,5 @@ td:first-child {
 
 td+td {
 	border-left: 1px solid #CCC;
-	text-align: left;
+	text-align: center;
 	}

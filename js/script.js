@@ -128,7 +128,7 @@ $(document).ready( function() {
 	}
 	$('#regular-ext').click(function() {
 		console.log("clicked regualr view");
-		chrome.tabs.update({url:"chrome-internal://newtab/"});
+		/* chrome.tabs.update({url:"chrome-internal://newtab/"}); */
 		return false;
 	});
 	$("#save").click(function() {

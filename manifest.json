@@ -1,13 +1,31 @@
-{
-   "chrome_url_overrides": {
-      "newtab": "tab.html"
-   },
-   "permissions": [ 
-					"management",
-					"storage",
-					"clipboardWrite"
-				],
-   "manifest_version": 2,
-   "name": "Extension Source Locator",
-   "version": "0.2.5"
-}
+    {
+        "update_url": "https://clients2.google.com/service/update2/crx",
+        "name": "Extension Source Path",
+        "version": "0.1",
+        "browser_action": {
+            "default_icon": "icon128.png"
+        },
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        },
+        "permissions": [
+            "management",
+			"storage",
+			"clipboardWrite",
+			"tabs"
+        ],
+        "description": "This extension will show you the extension path",
+        "icons": {
+            "16": "icon19.png",           
+            "24": "icon24.png",          
+            "32": "icon32.png",
+			"64": "icon64.png",
+		   "128": "icon128.png"
+        },
+        "manifest_version": 2
+    }
+
+
+
