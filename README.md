@@ -20,3 +20,14 @@ Note: Extension that are loaded unpacked are are marked as "Extension under deve
 
 ![](https://i.imgur.com/3c0SzQG.png)
 
+
+
+**How to install the extension:**
+
+    1- Download the zipped chrome-extension directory
+	2- Unzip the archive on your computer in a folder
+	3- Go to "chrome://extensions
+	4- Enable the Dev Mode in Chrome
+	5- Click "load unpacked extension"
+	6- Choose the directory you downloaded it to.
+
