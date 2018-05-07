@@ -1,4 +1,4 @@
-*Extension Source Path*
+*Chrome Extension Source Path*
 ============
 
 An extension to point to the source location of Google Chrome extensions.
