@@ -70,7 +70,7 @@ var getAllExtFunc = function (listOfExt) {
 			{
 				img = "";
 			}
-			var clipboard = '<button class="copyUrl" data-href="' + fullPath +'">Copy to clipboard</button>';
+			var clipboard = '<button class="copyUrl" data-href="' + fullPath +'">Copy path to clipboard</button>';
 		}
 		var html = "<tr><td>" + img + "</td><td>" + '<a href="' + '">' + listOfExt[i].name + '</a>' + "</td><td>" + clipboard + '<br/>' + "</td>";
 		$(".chrome-ext-list").append(html);
