@@ -18,7 +18,7 @@ Allows to copy to the clipboard the extension path
 
 Note: Extension that are loaded unpacked are are marked as "Extension under development"
 
-![](https://i.imgur.com/3c0SzQG.png)
+![](https://i.imgur.com/8Tntwkg.png)
 
 
 
